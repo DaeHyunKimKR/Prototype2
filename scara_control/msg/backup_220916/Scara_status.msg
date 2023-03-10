@@ -1,0 +1,9 @@
+bool[] servo
+bool[] alarm
+bool[] warn
+bool[] ready
+bool[] inpos1
+bool[] zspd
+float64[] current_position
+float64[] current_joint
+float64[] current_pulse
