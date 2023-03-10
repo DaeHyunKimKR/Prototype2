@@ -1,0 +1,6 @@
+<launch>
+        <node pkg="joy" type="joy_node" name="joystick" />
+        <node pkg="scara_control" type="scara_control_client1.py" name="scara" />
+        <node pkg="linear_control" type="linear_control_client.py" name="linear" />
+        <node pkg="robot_test" type="baesong_run" name="UTD-PRO" />
+</launch>
